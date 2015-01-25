@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kishan-Or-Kolade</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="titleText">Kishan or Kolade!</string>
+    <string name="HomeButt">Start game!</string>
+    <string name="SplashText">1111-1110-1100-1110</string>
+
+</resources>

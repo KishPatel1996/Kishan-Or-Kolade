@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/score_bg"
+     >
+     
+    
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="And your total score is..."
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    
+    
+    <TextView android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="100sp"
+        android:layout_marginTop="30dp"
+        android:text="" 
+        android:textColor="#FFFFFF"/>"	
+	
+	<TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kolade Points!"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="50sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+	<Button
+        android:id="@+id/returnButt"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return to home!"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+             />
+</LinearLayout>
